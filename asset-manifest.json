@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/iyanufanoro.github.io/static/css/main.9ece8169.css",
+    "main.js": "/iyanufanoro.github.io/static/js/main.fe9d8579.js",
+    "static/js/787.826c03d4.chunk.js": "/iyanufanoro.github.io/static/js/787.826c03d4.chunk.js",
+    "index.html": "/iyanufanoro.github.io/index.html",
+    "main.9ece8169.css.map": "/iyanufanoro.github.io/static/css/main.9ece8169.css.map",
+    "main.fe9d8579.js.map": "/iyanufanoro.github.io/static/js/main.fe9d8579.js.map",
+    "787.826c03d4.chunk.js.map": "/iyanufanoro.github.io/static/js/787.826c03d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ece8169.css",
+    "static/js/main.fe9d8579.js"
+  ]
+}

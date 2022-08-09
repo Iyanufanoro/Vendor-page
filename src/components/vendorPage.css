@@ -1,0 +1,187 @@
+/* h1{
+   
+
+} */
+
+/* --font-main=  */
+:root {
+  --font-main: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-style: var(--font-main);
+}
+.kkk {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.head {
+  font-family: var(--font-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  height: 90px;
+  color: white;
+}
+h1 {
+  font-weight: 500;
+}
+
+body {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg?w=1800&t=st=1659947019~exp=1659947619~hmac=d9926396b6e0b1ef39878ab29654f323742ede8cab014118e1e5c24fe9a75e66");
+  /* background-size: 200% 100% !important; */
+}
+
+.container {
+  display: flex;
+  width: 98%;
+  flex-direction: column;
+  background-size: 200% 100% !important;
+  animation: move 10s ease infinite;
+  transform: translate3d(0, 0, 0);
+  background: linear-gradient(45deg, coral 10%, black 90%);
+  padding-bottom: 20px;
+  border: 2.5px solid black;
+  margin-left: -5px;
+}
+
+.container1 {
+  display: flex;
+  width: 90%;
+  /* min-height: ; */
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  flex-direction: column;
+  padding: 20px 0px 20px 20px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#add-new-item {
+  max-width: 80px;
+  max-height: 50px;
+  height: 40px;
+  width: 18%;
+
+  align-self: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+.modalbutton {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  border: 2px ridge transparent;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 8px;
+}
+.modalbutton:hover {
+  background-color: white;
+  color: #2c528c;
+  width: 100%;
+  height: 100%;
+}
+.food-item {
+  background-color: white;
+  height: 17vh;
+  width: 85%;
+
+  border: 0.8px groove wheat;
+  align-self: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.food-item-image {
+  width: 55%;
+  border: 1px solid black;
+  margin: 12px 5px 12px 5px;
+  border-radius: 20px;
+  background-image: url(https://media.istockphoto.com/photos/jollof-rice-entree-picture-id1094739000?k=20&m=1094739000&s=612x612&w=0&h=xpnFONvk7Zj3H_t2PpbYhBg3RfxYBz_wpbAxWwkW0p0=);
+  background-size: contain;
+}
+.food-item_NTPr {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.food-item-name {
+  margin-top: 5px;
+  font-size: large;
+  font-weight: 400;
+}
+
+.food-item-toggle {
+  width: 32%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.food-item-price {
+  margin-top: 10%;
+  margin-left: 50%;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    max-width: 1100px;
+    margin: auto;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+  }
+  .container1a {
+    display: flex;
+    flex-direction: row;
+  }
+  .food-item {
+    max-width: 290px;
+    width: 25vw;
+    margin-right: 30px;
+    height: 19vh;
+  }
+  #add-new-item {
+    margin-right: 50px;
+  }
+}
+
+/* #add-new-item1  {
+ display:flex;
+ flex-direction: row-reverse;
+   
+
+} */
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}

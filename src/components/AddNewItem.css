@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+} */
+
+#newfooditem {
+  background-color: grey;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.newitemform {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background-color: white;
+
+  border: 8px solid transparent;
+
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.inputarea input {
+  border: 3px solid transparent;
+  width: 70%;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline-color: transparent;
+}
+
+.group1 {
+  flex-direction: column;
+  display: flex;
+}
+
+.inputareaD input {
+  border: 3px solid transparent;
+  width: 70%;
+  height: 50px;
+  background-color: whitesmoke;
+  outline-color: transparent;
+  /* box-shadow: 0px 0px color; */
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.submitbutton {
+  width: 100%;
+  height: 100%;
+}
+
+button[type="submit"] {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-color: coral;
+}
+
+label {
+  color: gray;
+  font-size: medium;
+  font-weight: 700;
+}
